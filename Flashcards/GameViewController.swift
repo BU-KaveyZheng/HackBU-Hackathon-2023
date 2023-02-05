@@ -46,7 +46,7 @@ class GameViewController: UIViewController {
                 label.text = fruit
                 label.textAlignment = .center
                 label.font = label.font.withSize(31)
-                //label.textColor = .clear
+                label.textColor = .clear
                 
                 labels.append(label)
                 view.addSubview(label)
